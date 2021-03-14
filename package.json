@@ -1,0 +1,28 @@
+{
+  "name": "test-library-docs",
+  "version": "1.0.0",
+  "description": "test libreria google docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create_tsc_file": "tsc -w",
+    "start": "node ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaetano1979/test-library-docs.git"
+  },
+  "keywords": [
+    "library google docs"
+  ],
+  "author": "Gaetano Sabino <gaetano.sabino@baseweb.space>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaetano1979/test-library-docs/issues"
+  },
+  "homepage": "https://github.com/Gaetano1979/test-library-docs#readme",
+  "dependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/node": "^14.14.34"
+  }
+}
